@@ -6,10 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      height: {
+        'hero': '90vh',
+      },
       colors: {
-        nexus: {
-          teal: '#034f46',
-          accent: '#aa3bff',
+        neon: {
+          cyan: '#00f2ff',
+          magenta: '#ff00ff',
+          purple: '#9d00ff',
         },
       },
       fontFamily: {
